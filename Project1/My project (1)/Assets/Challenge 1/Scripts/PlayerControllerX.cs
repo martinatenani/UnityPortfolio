@@ -38,6 +38,7 @@ public class PlayerControllerX : MonoBehaviour
             spinProp = 1;
         }
 
+        //Spinning propeller
         propeller.transform.Rotate(Vector3.forward, propSpeed * Time.deltaTime * spinProp);
    
     }
